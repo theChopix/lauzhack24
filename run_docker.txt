@@ -1,0 +1,5 @@
+docker build -t neo4j-lauzhack2024 .
+
+docker run -d -p 7474:7474 -p 7687:7687 --name neo4j-lauzhack2024 neo4j-lauzhack2024
+
+http://localhost:7474.
